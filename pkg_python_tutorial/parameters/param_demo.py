@@ -37,11 +37,11 @@ class BasicParams(Node):
         self.get_logger().info("my_str param value: {my_str}".format(my_str=self.my_str))
 
     def __parameters_handler(self, params: List[Parameter]):
-            success = True
-            for param in params:
-                self.get_logger().info(param.name)
-                self.get_logger().info(str(param.value))
-            return SetParametersResult(successful=success)
+        success = True
+        for param in params:
+            self.get_logger().info(param.name)
+            self.get_logger().info(str(param.value))
+        return SetParametersResult(successful=success)
 
 def main(args=None):
     rclpy.init(args=args)

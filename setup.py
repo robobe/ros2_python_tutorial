@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             "param_basic=pkg_python_tutorial.parameters.basic:main",
-            "param_demo=pkg_python_tutorial.parameters.param_demo:main"
+            "param_demo=pkg_python_tutorial.parameters.param_demo:main",
+            "param_array=pkg_python_tutorial.parameters.param_array:main",
+            "param_monitor=pkg_python_tutorial.parameters.param_monitor:main"
         ],
     },
 )
