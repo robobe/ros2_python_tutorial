@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "basic_param=pkg_python_tutorial.parameters.basic:main"
+            "param_basic=pkg_python_tutorial.parameters.basic:main",
+            "param_demo=pkg_python_tutorial.parameters.param_demo:main"
         ],
     },
 )
