@@ -10,4 +10,5 @@
 
 
 ## use launch
-- [run basic param node from launch file](launch/node_with_param.launch.py)
+- [run basic node with params from launch file](launch/node_with_param.launch.py)
+- [run basic node with yaml params file from launch file](launch/node_with_yaml.launch.py)

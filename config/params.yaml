@@ -1,0 +1,4 @@
+basic:
+  ros__parameters:
+    my_str: "from yaml"
+    my_int: 100
