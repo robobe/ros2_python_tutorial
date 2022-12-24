@@ -24,12 +24,16 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "rate_demo=pkg_python_tutorial.rate_demo:main",
             "param_basic=pkg_python_tutorial.parameters.basic:main",
             "param_demo=pkg_python_tutorial.parameters.param_demo:main",
             "param_array=pkg_python_tutorial.parameters.param_array:main",
             "param_monitor=pkg_python_tutorial.parameters.param_monitor:main",
             "param_update=pkg_python_tutorial.parameters.param_update_client:main",
-            "param_client=pkg_python_tutorial.parameters.param_client:main"
+            "param_client=pkg_python_tutorial.parameters.param_client:main",
+            "diag_basic=pkg_python_tutorial.diagnostics.simple:main",
+            "diag_updater=pkg_python_tutorial.diagnostics.diag_updater:main",
+            "gps_node=pkg_python_tutorial.diagnostics.gps_node:main"
         ],
     },
 )
