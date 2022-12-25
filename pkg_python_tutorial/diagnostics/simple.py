@@ -17,7 +17,7 @@ class SimpleNode(Node):
         msg = DiagnosticArray()
         msg.status = [
             DiagnosticStatus(name="diag1", message="simple diag"),
-            DiagnosticStatus(name="diag2", message="error diag", le)
+            DiagnosticStatus(name="diag2", message="error diag")
         ]
         self.get_logger().info("send dia")
         self.pub.publish(msg)
