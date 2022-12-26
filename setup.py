@@ -33,7 +33,7 @@ setup(
             "param_client=pkg_python_tutorial.parameters.param_client:main",
             "diag_basic=pkg_python_tutorial.diagnostics.simple:main",
             "diag_updater=pkg_python_tutorial.diagnostics.updater_with_task:main",
-            "gps_node=pkg_python_tutorial.diagnostics.gps_node:main"
+            "diag_updater_monitor=pkg_python_tutorial.diagnostics.updater_with_freq_task:main"
         ],
     },
 )
